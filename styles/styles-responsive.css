@@ -21,6 +21,7 @@
     font-size: 23px;
     min-width: none;
     max-width: 200px;
+    opacity: 0.8;
   }
   .div-profile{
     display: flex;
