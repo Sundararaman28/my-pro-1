@@ -22,16 +22,19 @@
   .div-profile{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   .profile-img{
     margin-right: 5px;
     width: 45px;
+    display: flex;
   }
   .user-id{
     display: none;
   }
   .notification-button{
     margin-right: 05px;
+    display: flex;
   }
   .notification-img{
     width: 37px;
