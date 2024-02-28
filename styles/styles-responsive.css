@@ -1,9 +1,10 @@
 /*-------------------------Media Query Code-------------------------------*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   /* Adjust styles for mobile screens here */
   .header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   .div-web-logo{
     display: flex;
@@ -18,6 +19,8 @@
   }
   .search{
     font-size: 23px;
+    min-width: none;
+    max-width: 200px;
   }
   .div-profile{
     display: flex;
