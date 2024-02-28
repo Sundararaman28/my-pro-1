@@ -1,0 +1,40 @@
+/*-------------------------Media Query Code-------------------------------*/
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for mobile screens here */
+  .header{
+    display: flex;
+    flex-direction: row;
+  }
+  .div-web-logo{
+    display: flex;
+    margin-right: 3px;
+  }
+  .div-user-name{
+    display: none;
+  }
+  .div-search{
+    display: flex; 
+    margin-right: 5px;
+  }
+  .search{
+    font-size: 23px;
+  }
+  .div-profile{
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-img{
+    margin-right: 5px;
+    width: 45px;
+  }
+  .user-id{
+    display: none;
+  }
+  .notification-button{
+    margin-right: 05px;
+  }
+  .notification-img{
+    width: 37px;
+  }
+
+}

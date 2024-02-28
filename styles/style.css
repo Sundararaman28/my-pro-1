@@ -489,35 +489,7 @@
 
 
 
-/*-------------------------Media Query Code-------------------------------*/
-@media only screen and (max-width: 600px) {
-  /* Adjust styles for mobile screens here */
-  .header{
-    display: flex;
-    flex-direction: row;
-  }
-  .div-web-logo{
-    display: flex;
-  }
-  .div-user-name{
-    display: none;
-  }
-  .div-search{
-    display: flex;
-    width: 40%;
-  }
-  .search{
-    font-size: 15px;
-  }
-  .div-profile{
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-  }
-  .user-id{
-    display: none;
-  }
-}
+
 
 
 
