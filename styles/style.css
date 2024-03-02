@@ -121,11 +121,11 @@
 .div-middle-menu{
   display: flex;
   flex-direction: column;
-  width: 60%;
+  
 }
 .div-banner{
   height: 350px;
-  width: 820px;
+  
   display: flex;
   flex-direction: row;
   border: none;

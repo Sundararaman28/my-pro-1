@@ -1,6 +1,8 @@
 /*-------------------------Media Query Code-------------------------------*/
 @media only screen and (max-width: 600px) {
   /* Adjust styles for mobile screens here */
+
+  /*----------HEADER-----------*/
   .header{
     display: flex;
     flex-direction: row;
@@ -43,5 +45,51 @@
   .notification-img{
     width: 37px;
   }
+
+/*----------HEADER CLOSE----------*/
+
+/*----------BODY CONTENT----------*/
+.div-side-bar{
+  display: none;
+}
+.div-banner {
+  flex-direction: column;
+  height: auto; 
+  padding: 0px;
+}
+.div-sub-banner1 {
+  width: 100%; 
+  margin: 0;
+  padding: 20px; 
+}
+.div-sub-banner2 {
+  display: none;
+}
+.our-menu,.see-all{
+  display: none;
+}
+.div-chip-buttons {
+  
+  align-items: center; 
+  display: flex;
+  overflow-x: auto; 
+  white-space: nowrap; 
+}
+
+
+.button-chip {
+  margin-right: 2px; 
+}
+.div-item-main {
+  flex-direction: column; 
+}
+.div-item-main-1,
+.div-item-main-2 {
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+.div-right-coloumn{
+  display: none;
+}
 
 }
