@@ -58,9 +58,9 @@
   padding: 0px;
 }
 .div-sub-banner1 {
-  width: 100%; 
+  width: 95%; 
   margin: 0;
-  padding: 20px; 
+  padding: 20px 0px 20px 20px; 
 }
 .div-sub-banner2 {
   display: none;
@@ -72,8 +72,7 @@
   
   align-items: center; 
   display: flex;
-  overflow-x: auto; 
-  white-space: nowrap; 
+    
 }
 
 
