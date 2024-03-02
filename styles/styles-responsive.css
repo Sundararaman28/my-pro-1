@@ -31,7 +31,7 @@
     justify-content: space-between;
   }
   .profile-img{
-    margin-right: 4px;
+    margin-right: 6px;
     width: 45px;
     display: flex;
   }
@@ -39,7 +39,8 @@
     display: none;
   }
   .notification-button{
-    margin-right: 05px;
+    margin-left: 10px;
+    margin-right: 0px;
     display: flex;
   }
   .notification-img{
@@ -49,6 +50,9 @@
 /*----------HEADER CLOSE----------*/
 
 /*----------BODY CONTENT----------*/
+body{
+  margin-left: 3px;
+}
 .div-side-bar{
   display: none;
 }
