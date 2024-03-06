@@ -10,10 +10,25 @@
     <header>
       <div class="header">
         <div class="div-web-logo">
-          <button class="web-logo"><img class="web-logo-img" onclick="
-            alert('function enabled soon');
-            " src="images/k-logo.png"></button>
+          <button id="menuButton" class="web-logo"><img class="web-logo-img" src="images/k-logo.png"></button>
         </div>
+        
+
+        <div id="menuContainer" class="menu-container">
+          <div class="menu">
+              <span class="close" id="closeMenu">&times;</span>
+              <ul>
+                  <li class="menu-button"><img src="images/profile.png"> <p class="menu-item">Profile</p></li>
+                  <li class="menu-button"><img src="images/wallet.png"> <p class="menu-item">Wallet</p> </li>
+                  <li class="menu-button"><img src="images/Settings.png"><p class="menu-item">Setting</p> </li>
+                  <li class="menu-button"><img src="images/mail.png"><p class="menu-item"> Mail</p></li>
+                  <li class="menu-button"><img src="images/Chat.png"> <p class="menu-item">Contact Us</p> </li>
+              </ul>
+          </div>
+      </div>
+
+
+
         <div class="div-user-name">
           <p class="user-name">hello karan</p>
           <p class="welcome-back">Welcome Back</p>
@@ -267,8 +282,9 @@
 
         </div>
 
-        hello
+        
       </div>
     </div>
+    <script src="script/script.js"></script>
   </body>
 </html>
